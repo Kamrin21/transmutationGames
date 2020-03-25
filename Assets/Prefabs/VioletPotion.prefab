@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 5007341721795272085}
   - component: {fileID: 5007341721795272084}
   - component: {fileID: 4030814887088929373}
-  - component: {fileID: -7015394266772889171}
+  - component: {fileID: 389811796707842010}
+  - component: {fileID: 8622573339511058414}
   m_Layer: 5
   m_Name: VioletPotion
   m_TagString: Untagged
@@ -87,7 +88,7 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &-7015394266772889171
+--- !u!114 &389811796707842010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,6 +97,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 5007341721795272086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fd1775dd9d2d8041878e0cf0134e243, type: 3}
+  m_Script: {fileID: 11500000, guid: 69713e1ff362c1a40af66e32322801af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8622573339511058414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5007341721795272086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907d8b2f61113f04592447715151082c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: block
+  power: medium
+  element: ice
